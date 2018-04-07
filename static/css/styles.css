@@ -1,0 +1,77 @@
+body {
+	background-color: #808ea3;
+}
+
+.banner {
+	width: 90%;
+	padding: 10%;
+	margin: 0 auto;
+	background-image: url("../img/ninja_gold.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.action {
+	margin: 10px;
+	box-shadow: 2px 2px 2px black;
+	padding-top: 80%;
+	position: relative;
+	height: width;
+	background-color: #1e1f21;
+	color: white;
+}
+
+.action-internal {
+	position: absolute;
+	text-align: center;
+    top: 20%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+}
+
+.action-internal .button{
+	font-size: 1em;
+	border: 1px solid white;
+	padding: 3%;
+	box-shadow: 2px 2px 2px white;
+}
+
+.title {
+	text-align: left;
+	padding-left: 3%;
+	color: white;
+	font-size: 1.5em;
+}
+
+#history {
+	background-color: white;
+	width: 98%;
+	height: 150px;
+	overflow: auto;
+	overflow: scroll;
+	margin: 1% auto;
+	box-shadow: 2px 2px 2px black;
+}
+
+#history-internal {
+	text-align: left;
+    margin- top: 5%;
+    margin-left: 1%;
+}
+
+#gold {
+	font-size: 2em;
+	margin: 20px 0px;
+	color: gold;
+}
+
+
+
+.add {
+	color: lightgreen;
+}
+
+.subtract {
+	color: red;
+}
